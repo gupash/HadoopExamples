@@ -13,11 +13,11 @@
       <module fileurl="file://$PROJECT_DIR$/MRWithToolRunner/MRWithToolRunner.iml" filepath="$PROJECT_DIR$/MRWithToolRunner/MRWithToolRunner.iml" />
       <module fileurl="file://$PROJECT_DIR$/MapSideJoinExp/MapSideJoinExp.iml" filepath="$PROJECT_DIR$/MapSideJoinExp/MapSideJoinExp.iml" />
       <module fileurl="file://$PROJECT_DIR$/MrTestUnitExp/MrTestUnitExp.iml" filepath="$PROJECT_DIR$/MrTestUnitExp/MrTestUnitExp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PigUDF/PigUDF.iml" filepath="$PROJECT_DIR$/PigUDF/PigUDF.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReduceSideJoin/ReduceSideJoin.iml" filepath="$PROJECT_DIR$/ReduceSideJoin/ReduceSideJoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondarySortNameYear/SecondarySortNameYear.iml" filepath="$PROJECT_DIR$/SecondarySortNameYear/SecondarySortNameYear.iml" />
       <module fileurl="file://$PROJECT_DIR$/SequenceFileExample/SequenceFileExample.iml" filepath="$PROJECT_DIR$/SequenceFileExample/SequenceFileExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestingLambdaNStreams/TestingLambdaNStreams.iml" filepath="$PROJECT_DIR$/TestingLambdaNStreams/TestingLambdaNStreams.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TestingRegex/TestingRegex.iml" filepath="$PROJECT_DIR$/TestingRegex/TestingRegex.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordCount/WordCount.iml" filepath="$PROJECT_DIR$/WordCount/WordCount.iml" />
     </modules>
   </component>
