@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AvgWLengthWithCustomConf/AvgWLengthWithCustomConf.iml" filepath="$PROJECT_DIR$/AvgWLengthWithCustomConf/AvgWLengthWithCustomConf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomInputFormat/CustomInputFormat.iml" filepath="$PROJECT_DIR$/CustomInputFormat/CustomInputFormat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomPartitionerPractice/CustomPartitionerPractice.iml" filepath="$PROJECT_DIR$/CustomPartitionerPractice/CustomPartitionerPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HadoopExamples.iml" filepath="$PROJECT_DIR$/HadoopExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageCounterExample/ImageCounterExample.iml" filepath="$PROJECT_DIR$/ImageCounterExample/ImageCounterExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LambdaExpressionDemo/LambdaExpressionDemo.iml" filepath="$PROJECT_DIR$/LambdaExpressionDemo/LambdaExpressionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogFileCustomPartitioner/LogFileCustomPartitioner.iml" filepath="$PROJECT_DIR$/LogFileCustomPartitioner/LogFileCustomPartitioner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogsWithCPnKeyPair/LogsWithCPnKeyPair.iml" filepath="$PROJECT_DIR$/LogsWithCPnKeyPair/LogsWithCPnKeyPair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MRBasicExpWithNLine/MRBasicExpWithNLine.iml" filepath="$PROJECT_DIR$/MRBasicExpWithNLine/MRBasicExpWithNLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MRWithToolRunner/MRWithToolRunner.iml" filepath="$PROJECT_DIR$/MRWithToolRunner/MRWithToolRunner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapSideJoinExp/MapSideJoinExp.iml" filepath="$PROJECT_DIR$/MapSideJoinExp/MapSideJoinExp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MrTestUnitExp/MrTestUnitExp.iml" filepath="$PROJECT_DIR$/MrTestUnitExp/MrTestUnitExp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReduceSideJoin/ReduceSideJoin.iml" filepath="$PROJECT_DIR$/ReduceSideJoin/ReduceSideJoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondarySortNameYear/SecondarySortNameYear.iml" filepath="$PROJECT_DIR$/SecondarySortNameYear/SecondarySortNameYear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SequenceFileExample/SequenceFileExample.iml" filepath="$PROJECT_DIR$/SequenceFileExample/SequenceFileExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestingLambda/TestingLambda.iml" filepath="$PROJECT_DIR$/TestingLambda/TestingLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestingRegex/TestingRegex.iml" filepath="$PROJECT_DIR$/TestingRegex/TestingRegex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCount/WordCount.iml" filepath="$PROJECT_DIR$/WordCount/WordCount.iml" />
+    </modules>
+  </component>
+</project>
