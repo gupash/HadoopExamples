@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="DateFormatter">
-    <output-path>$PROJECT_DIR$/out/artifacts/DateFormatter</output-path>
-    <root id="archive" name="DateFormatter.jar">
-      <element id="module-output" name="PigUDF" />
-    </root>
-  </artifact>
-</component>
