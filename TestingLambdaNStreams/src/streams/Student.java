@@ -1,5 +1,8 @@
 package streams;
 
+import java.util.Arrays;
+import java.util.List;
+
 class Student{
     String name;
     int age;
@@ -35,5 +38,27 @@ class Student{
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", type='" + type + '\'' +
+                '}';
+    }
+
+    public List<Student> generateData() {
+
+        List<Student> st = Arrays.asList(new Student("Ashish", 27, "College"),
+                new Student("Aman", 24, "School"),
+                new Student("Rahul", 18, "School"),
+                new Student("Ajay", 29, "College"),
+                new Student("Mathur", 25, "College"),
+                new Student("Modi", 28, "College"),
+                new Student("Prem", 15, "School"),
+                new Student("Akash", 17, "School"));
+        return st;
     }
 }
