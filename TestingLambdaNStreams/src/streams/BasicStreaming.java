@@ -20,6 +20,14 @@ public class BasicStreaming {
 
         System.out.println("********* Print from normal method - Descending *********");
 
+        /* Sorting in normal way by either using
+            Collections.sort(st);
+            Collections.sort(st, Comparator.naturalOrder());
+            Collections.sort(st, Comparator.<String>reverseOrder());
+
+            or creating your own Comparator
+        */
+
         Collections.sort(st, new StringRevComp());
 
         for (String s : st) {
