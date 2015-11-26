@@ -11,7 +11,7 @@ public class StreamingCont {
 
     public static void main(String[] args) {
 
-        List<Student> students = new Student().generateData();
+        List<Student> students = Student.generateData();
 
          Collections.sort(students, new Comparator<Student>() {
             @Override
@@ -45,18 +45,11 @@ public class StreamingCont {
         System.out.println("\n--------- Min of all ages below 28, Method 1 --------");
         System.out.println(srtStu.stream().mapToInt(Integer::intValue).min().getAsInt());
 
-        System.out.println("\n--------- Average of all ages below 28, Method 1 --------");
-        System.out.println(srtStu.stream().collect(Collectors.averagingInt(p -> p.intValue())));
-
         System.out.println("\n--------- Average of all ages below 28, Method 2 --------");
         System.out.println(srtStu.stream().mapToInt(x -> x).average().getAsDouble());
 
         System.out.println("\n---------- Printing stream of numbers with difference of 10 -----------");
         Stream<Integer> intStream = Stream.iterate(0, n -> n + 10).limit(10);
         intStream.forEach(System.out::println);
-
-        System.out.println("\n---------- Grouping Students by Type -----------");
-        Map<String, List<String>> stuMap = students.stream().collect(Collectors.groupingBy(Student::getType, Collectors.mapping(Student::getName, Collectors.toList())));
-        stuMap.forEach((k, v) -> System.out.println("Key : "+k+", value :"+v));
     }
 }

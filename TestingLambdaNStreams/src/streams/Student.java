@@ -49,7 +49,7 @@ class Student{
                 '}';
     }
 
-    public List<Student> generateData() {
+    public static List<Student> generateData() {
 
         List<Student> st = Arrays.asList(new Student("Ashish", 27, "College"),
                 new Student("Aman", 24, "School"),
