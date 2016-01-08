@@ -1,16 +1,15 @@
 package org.ashish.pig;
 
+import org.apache.pig.EvalFunc;
 import org.apache.pig.data.Tuple;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class TimeConverter {
+public class TimeConverter extends EvalFunc<String>{
 
-    public TimeConverter() {
-    }
-
+    @Override
     public String exec(Tuple var1) throws IOException {
         String var2 = extractStringFromTuple(var1);
         return this.convertToDate(var2);
@@ -18,7 +17,7 @@ public class TimeConverter {
 
     public static String extractStringFromTuple(Tuple var0) throws IOException {
         if(var0 != null && var0.size() > 0) {
-            String var1 = null;
+            String var1;
 
             try {
                 var1 = (String)var0.get(0);
