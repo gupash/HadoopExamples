@@ -5,6 +5,18 @@ import java.util.List;
 
 public class BasicLambda {
 
+    public interface Operation{
+        int operate(int a, int b);
+    }
+
+    public interface PrintMessage{
+        void printMsg(String msg);
+    }
+
+    public void invokePrintMsg(PrintMessage pm){
+        pm.printMsg("Aman");
+    }
+
     public static void main(String[] args) {
 
         BasicLambda bl = new BasicLambda();
@@ -38,17 +50,5 @@ public class BasicLambda {
         a.forEach(s -> System.out.println(s.toString()));
 
         a.forEach(System.out::println);
-    }
-
-    public interface Operation{
-        int operate(int a, int b);
-    }
-
-    public interface PrintMessage{
-        void printMsg(String msg);
-    }
-
-    public void invokePrintMsg(PrintMessage pm){
-        pm.printMsg("Aman");
     }
 }

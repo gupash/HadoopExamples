@@ -19,11 +19,13 @@ public class LambdaContinued {
 
     public static void main(String[] args) throws Exception {
 
-        //The first call returns String("done"), as return is default in lambda, if in a single line
+        //First call is to invoke taking Runnable reference as Input, and it returns nothing
+        invoke(() -> System.out.println("Ashish"));
+
+        /*The second call returns String("done"), as return is default in lambda, if in a single line,
+          hence it is identified against invoke taking callable as Input */
         String s = (String) invoke(() -> "done");
         System.out.println(s);
 
-        //Second call returns nothing
-        invoke(() -> System.out.println("Ashish"));
     }
 }

@@ -58,7 +58,7 @@ public class RosterTest {
 
     // Approach 7: Use Lambda Expressions Throughout Your Application
 
-    public static void processPersons(List<Person> roster, Predicate<Person> tester, Consumer<Person> block) {
+    public static void  processPersons(List<Person> roster, Predicate<Person> tester, Consumer<Person> block) {
         for (Person p : roster) {
             if (tester.test(p)) {
                 block.accept(p);

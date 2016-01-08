@@ -26,6 +26,8 @@ public class BasicStreaming {
             Collections.sort(st, Comparator.<String>reverseOrder());
 
             or creating your own Comparator
+
+            FYI : Also List now has sort method - st.sort(Comparator.naturalOrder());
         */
 
         Collections.sort(st, new StringRevComp());
@@ -37,9 +39,9 @@ public class BasicStreaming {
         System.out.println("\n\n********* Print Through Streams - Ascending **********");
 
         names.stream()
-                .filter(t -> t.contains("sh"))
-                .sorted(Comparator.comparing(String::toString))
-                .collect(Collectors.toList())
-                .forEach(System.out::println);
+             .filter(t -> t.contains("sh"))
+             .sorted(Comparator.comparing(String::toString))
+             .collect(Collectors.toList())
+             .forEach(System.out::println);
     }
 }
